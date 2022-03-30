@@ -1,0 +1,214 @@
+@import url (https://fonts.google.com/specimen/Lexend+Deca);
+@import url (https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+#main-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 20%;
+    left: 23%;
+
+}
+
+.card-sedan {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 400px;
+    width: 250px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-suvs {
+    height: 400px;
+    width: 250px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 400px;
+    width: 250px;
+    background-color: hsl(179, 100%, 13%);
+    
+}
+
+.icon-sedans {
+    background-color:  hsl(31, 77%, 52%);
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    
+}
+
+.sedans-headbar {
+    background-color:  hsl(31, 77%, 52%);
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 35px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Big shoulders', sans-serif;
+    letter-spacing: -1.5px;
+    
+}
+
+.sedans-paragraph {
+    background-color:  hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    position: relative;
+    top: 170px;
+    left: 35px;
+    margin-right: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5
+    
+}
+
+.sedans-button {
+    position: absolute;
+    top: 330px;
+    left: 35px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid hsl(31, 77%, 52%);
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+.sedans-button:hover {
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+}
+
+.button-text {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Big shoulders' , sans-serif;
+    color: hsl(31, 77%, 52%);
+}
+
+/* SUVS Css Styling Section */
+
+.icon-suvs {
+    background-color: hsl(184, 100%, 22%);
+    position: relative;
+    top: 40px;
+    left: 35px;
+}
+
+.suvs-headbar {
+    background-color:  hsl(184, 100%, 22%);
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 35px;
+    margin-right: 35px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Big shoulders', sans-serif;
+    letter-spacing: -1.5px;
+}
+
+.suvs-paragraph {
+    background-color:  hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    position: relative;
+    top: 100px;
+    left: 35px;
+    margin-right: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5
+}
+
+.suvs-button {
+    position: relative;
+    top: 145px;
+    left: 35px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid hsl(184, 100%, 22%);
+    border-radius: 20px;
+}
+
+.suvbutton-text {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Big shoulders' , sans-serif;
+    color: hsl(184, 100%, 22%);;
+}
+
+/* LUXURY car Css Styling Section */
+
+.icon-luxury {
+    background-color: hsl(179, 100%, 13%);
+    position: relative;
+    top: 40px;
+    left: 35px;   
+}
+
+.luxury-headbar {
+    background-color:  hsl(179, 100%, 13%);
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 35px;
+    margin-right: 35px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Big shoulders', sans-serif;
+    letter-spacing: -1.5px;
+}
+
+.luxury-paragraph {
+    background-color:  hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    position: relative;
+    top: 100px;
+    left: 35px;
+    margin-right: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5
+}
+
+.luxury-button {
+    position: relative;
+    top: 145px;
+    left: 35px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid hsl(179, 100%, 13%);
+    border-radius: 20px;
+}
+
+
+.luxury-button-text {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Big shoulders' , sans-serif;
+    color: hsl(179, 100%, 13%);
+}
+
+
+
+
+
+
+
+
+
+
